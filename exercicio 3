@@ -1,0 +1,17 @@
+programa
+{
+	
+inclua biblioteca Matematica --> m
+	funcao inicio()
+	{
+		real a ,b,c,d,E , maior1,maior2,maior3, maior4
+		leia(a,b,c,d,E)
+		maior1 = m.maior_numero(a, b)
+		maior2 = m.maior_numero(c, d)
+		maior3 = m.maior_numero(maior1, maior2)
+		maior4 = m.maior_numero(maior3, E)
+
+		escreva(maior4)
+	}
+			
+}
