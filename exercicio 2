@@ -1,0 +1,11 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		inteiro a , b, c , d , x , media
+		leia(a,b,c,d,x)
+		media = ((a + b)+ (c+d) + x) / 5
+		escreva("media= ",media)
+	}
+}
