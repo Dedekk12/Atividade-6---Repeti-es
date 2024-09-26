@@ -4,15 +4,23 @@ programa
 	funcao inicio()
 	{
 		 inteiro expoente 
-		 inteiro base 
+		 inteiro base, resultado = 0
+			escreva("exponenciação top \n")
+			leia(base,expoente)
+			elevacao(base, expoente)
 			
-		leia(base,expoente)
+		
+	}
+          funcao  vazio elevacao( inteiro base , inteiro exponte){
+          	         
           inteiro multi = base
-		para (inteiro i = 1 ; i < expoente ; i++){
+		para (inteiro i = 1 ; i < exponte ; i++){
 			
 			multi = multi * base						
-		}		
-	escreva(base," elevado a " , expoente , " é igual a ", multi)
+		}		escreva(base," elevado a " , exponte , " é igual a ", multi)
+		retorne
+	      
+          }
 	
-	}
+	
 }
