@@ -1,0 +1,18 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		 inteiro expoente 
+		 inteiro base 
+			
+		leia(base,expoente)
+          inteiro multi = base
+		para (inteiro i = 1 ; i < expoente ; i++){
+			
+			multi = multi * base						
+		}		
+	escreva(base," elevado a " , expoente , " é igual a ", multi)
+	
+	}
+}
